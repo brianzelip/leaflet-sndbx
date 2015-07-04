@@ -1,3 +1,3 @@
-This is a sandbox environment following along with the [leaflet.js quick tutorial](http://leafletjs.com/examples/quick-start.html).
+Sandbox environment for learning `leaflet.js` following the [quick leaflet.js tutorial](http://leafletjs.com/examples/quick-start.html).
 
-I am fucking around with this in an attempt to create Abbie's desired blog for Becoming Baltimore.
+Also referencing @JulienMelissas's [*Leaflet.js/Mapbox.js Tutorial*](http://julienmelissas.com/leaflet-js-mapbox-js-screencast/)
