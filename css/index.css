@@ -19,11 +19,21 @@ body {
 
 .overlay {
   height: 1000px;
-  margin: 0 auto;
-  background-color: white;
+  background-color: rgba(255,255,255,.5);
   border-radius: 2px;
-  color: orange;
   text-align: center;
   z-index: 2;
   position: relative;
+  top: 4rem;
 }
+
+.top-4 { top: 4rem; }
+
+.h0 {
+  font-size: 5rem;
+  overflow: hidden;
+}
+
+.libre_baskerville { font-family: "Libre Baskerville"; }
+
+.baskerville { font-family: "Baskerville" ;}
