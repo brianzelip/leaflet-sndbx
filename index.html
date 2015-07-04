@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css">    
+    <link href="http://d2v52k3cl9vedd.cloudfront.net/basscss/7.0.0/basscss.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/index.css">
     <title>Leaflet.js web map sandbox</title>
     <meta name="description" content="">
@@ -16,13 +17,16 @@
   <body>
 
     <div id="map"></div>
+    <main class="container overlay">
+      <h1 class="m0">hello world</h1>
+    </main>
 
   </body>
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
   <script>
-    var map = L.map('map', {scrollWheelZoom: false, minZoom: 13, maxZoom: 15}).setView([39.290385, -76.612189], 13);
+    var map = L.map('map', {scrollWheelZoom: false, minZoom: 12, maxZoom: 14}).setView([39.290385, -76.612189], 13);
 
     //Mapbox tiles
     L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {

@@ -14,5 +14,16 @@ body {
   height: 100vh;
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 
+.overlay {
+  height: 1000px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 2px;
+  color: orange;
+  text-align: center;
+  z-index: 2;
+  position: relative;
+}
