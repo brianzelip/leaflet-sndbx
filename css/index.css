@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+*, *:before, *:after { box-sizing: border-box; }
+
+html,
+body {
+  min-height: 100vh;
+  margin: 0;
+}
+
+.vh100 { height: 100vh; }
+
+#map {
+  height: 500px;
+}
