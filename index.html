@@ -27,7 +27,7 @@
       </div>
     </div>
 
-    <main class="container overlay">
+    <main class="container overlay hide">
       <h1 class="h0 m0 py4 libre_baskerville regular">Becoming Baltimore</h1>
     </main>
 
@@ -50,6 +50,16 @@
 //      attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
 //      maxZoom: 18
 //    }).addTo(map);
+
+    // Markers
+    var popup = L.popup()
+    .setLatLng([39.30, -76.62])
+    .setContent("Park Cafe!!")
+    .openOn(map);
+
+    var marker = L.marker([39.31, -76.61]).addTo(map)
+      .bindPopup("<h2 class='m0'>The Crown MF*#@RS!</h2>").openPopup();
+
   </script>
 
 </html>
