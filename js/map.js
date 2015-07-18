@@ -20,4 +20,4 @@ var popup = L.popup()
 .openOn(map);
 
 var marker = L.marker([39.31, -76.61]).addTo(map)
-  .bindPopup("<h2 class='m0'>The Crown MF*#@RS!</h2>").openPopup();
+  .bindPopup("<h2 class='m0'>The Crown MF*#@RS!</h2><button class='btn btn-primary' data-toggle='modal' data-target='#Crown_2015_07_23'>Crown Open</button>").openPopup();
