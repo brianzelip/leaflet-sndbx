@@ -1946,6 +1946,8 @@ body {
 }
 
 .top-4 { top: 64px; top: 4rem; }
+.top-6 { top: 96px; top: 6rem; }
+.top-10 { top: 160px; top: 10rem; }
 .bottom-4 { bottom: 64px; bottom: 4rem; }
 .right-4 { right: 64px; right: 4rem; }
 .left-4 { left: 64px; left: 4rem; }
