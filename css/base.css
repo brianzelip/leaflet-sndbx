@@ -891,6 +891,10 @@ hr {
 .bg-darken-2 { background-color: #000000; background-color: rgba(0,0,0,.125) }
 .bg-darken-3 { background-color: #000000; background-color: rgba(0,0,0,.25) }
 .bg-darken-4 { background-color: #000000; background-color: rgba(0,0,0,.5) }
+
+
+/* Optional Modules (not included in Basscss by default) */
+
 /* Basscss Base Buttons */
 
 button,
@@ -1566,167 +1570,7 @@ input[type=range] {
   }
 
 }
-/* Basscss Color Buttons */
-
-/* Basscss Button Blue */
-
-.button-blue {
-  color: white;
-  background-color: #0074d9;
-  border-radius: 3px;
-  -webkit-transition-duration: .1s;
-          transition-duration: .1s;
-  -webkit-transition-timing-function: ease-out;
-          transition-timing-function: ease-out;
-  -webkit-transition-property: box-shadow, background-color;
-          transition-property: box-shadow, background-color;
-}
-  
-.button-blue:hover {
-  opacity: .875;
-}
-
-.button-blue:active,
-.button-blue.is-active {
-  box-shadow: inset 0 0 0 32px rgba(#000,.125), inset 0 2px 3px 0 rgba(#000,.25);
-}
-
-.button-blue:focus {
-  outline: none;
-  box-shadow: 0 0 0 2px rgba(white, .5), 0 0 1px 4px rgba(#0074d9, .5);
-}
-
-.button-blue:disabled,
-.button-blue.is-disabled {
-  opacity: .5;
-}
-/* Basscss Button Blue Outline */
-
-.button-blue-outline {
-  color: #0074d9;
-  background-color: transparent;
-  border-radius: 3px;
-  border: 1px solid #0074d9;
-  -webkit-transition-duration: .1s;
-          transition-duration: .1s;
-  -webkit-transition-timing-function: ease-out;
-          transition-timing-function: ease-out;
-  -webkit-transition-property: box-shadow, background-color;
-          transition-property: box-shadow, background-color;
-}
-  
-.button-blue-outline:hover,
-.button-blue-outline.is-active {
-  color: white;
-  background-color: #0074d9;
-}
-
-.button-blue-outline:active {
-  box-shadow: inset 0 3px 3px 0 rgba(#000,.25);
-}
-
-.button-blue-outline:focus {
-  outline: none;
-  box-shadow: 0 0 0 2px rgba(white, .5), 0 0 1px 4px rgba(#0074d9, .5);
-}
-
-.button-blue-outline:disabled,
-.button-blue-outline.is-disabled {
-  color: #0074d9;
-  background-color: transparent;
-  opacity: .5;
-}
-/* Basscss Button Red */
-
-.button-red {
-  color: white;
-  background-color: #ff4136;
-  border-radius: 3px;
-  -webkit-transition-duration: .1s;
-          transition-duration: .1s;
-  -webkit-transition-timing-function: ease-out;
-          transition-timing-function: ease-out;
-  -webkit-transition-property: box-shadow, background-color;
-          transition-property: box-shadow, background-color;
-}
-  
-.button-red:hover {
-  opacity: .875;
-}
-
-.button-red:active,
-.button-red.is-active {
-  box-shadow: inset 0 0 0 32px rgba(#000,.125), inset 0 2px 3px 0 rgba(#000,.25);
-}
-
-.button-red:focus {
-  outline: none;
-  box-shadow: 0 0 0 2px rgba(white, .5), 0 0 1px 4px rgba(#ff4136, .5);
-}
-
-.button-red:disabled,
-.button-red.is-disabled {
-  opacity: .5;
-}
-/* Basscss Button Light Gray */
-
-.button-light-gray {
-  color: #333;
-  background-color: #ccc;
-  border-radius: 3px;
-  -webkit-transition-duration: .1s;
-          transition-duration: .1s;
-  -webkit-transition-timing-function: ease-out;
-          transition-timing-function: ease-out;
-  -webkit-transition-property: box-shadow, background-color;
-          transition-property: box-shadow, background-color;
-}
-  
-.button-light-gray:hover {
-  opacity: .875;
-}
-
-.button-light-gray:active,
-.button-light-gray:is-active {
-  box-shadow: inset 0 0 0 32px rgba(#000,.125), inset 0 2px 3px 0 rgba(#000,.25);
-}
-
-.button-light-gray:focus {
-  outline: none;
-  box-shadow: 0 0 0 2px white, 0 0 1px 4px rgba(#0074d9, .5);
-}
-
-.button-light-gray:disabled,
-.button-light-gray.is-disabled {
-  opacity: .5;
-}
-
-/* Basscss Button Nav Light */
-
-.button-nav-light:hover {
-  background-color: #000000;
-  background-color: rgba(0,0,0,.0625);
-}
-.button-nav-light:active,
-.button-nav-light.is-active {
-  color: #333;
-}
-/* Basscss Button Nav Dark */
-
-.button-nav-dark {
-  color: white;
-}
-
-.button-nav-dark:hover {
-  background-color: #000000;
-  background-color: rgba(0,0,0,.125);
-}
-
-.button-nav-dark:active,
-.button-nav-dark.is-active {
-  background-color: #000000;
-  background-color: rgba(0,0,0,.125);
-}
+/*@import 'basscss-color-buttons';*/
 /* Basscss Button Link */
 
 .button-link {
@@ -1763,74 +1607,11 @@ input[type=range] {
 .button-link.is-disabled {
   opacity: .5;
 }
-/* Basscss Button Blue Outline */
-
-.button-blue-outline {
-  color: #0074d9;
-  background-color: transparent;
-  border-radius: 3px;
-  border: 1px solid #0074d9;
-  -webkit-transition-duration: .1s;
-          transition-duration: .1s;
-  -webkit-transition-timing-function: ease-out;
-          transition-timing-function: ease-out;
-  -webkit-transition-property: box-shadow, background-color;
-          transition-property: box-shadow, background-color;
-}
-  
-.button-blue-outline:hover,
-.button-blue-outline.is-active {
-  color: white;
-  background-color: #0074d9;
-}
-
-.button-blue-outline:active {
-  box-shadow: inset 0 3px 3px 0 rgba(#000,.25);
-}
-
-.button-blue-outline:focus {
-  outline: none;
-  box-shadow: 0 0 0 2px rgba(white, .5), 0 0 1px 4px rgba(#0074d9, .5);
-}
-
-.button-blue-outline:disabled,
-.button-blue-outline.is-disabled {
-  color: #0074d9;
-  background-color: transparent;
-  opacity: .5;
-}
-/* Basscss Button Gray */
-
-.button-gray {
-  color: white;
-  background-color: #777;
-  border-radius: 3px;
-  -webkit-transition-duration: .1s;
-          transition-duration: .1s;
-  -webkit-transition-timing-function: ease-out;
-          transition-timing-function: ease-out;
-  -webkit-transition-property: box-shadow, background-color;
-          transition-property: box-shadow, background-color;
-}
-  
-.button-gray:hover {
-  opacity: .875;
-}
-
-.button-gray:active,
-.button-gray:is-active {
-  box-shadow: inset 0 0 0 32px rgba(#000,.125), inset 0 2px 3px 0 rgba(#000,.25);
-}
-
-.button-gray:focus {
-  outline: none;
-  box-shadow: 0 0 0 2px white, 0 0 1px 4px rgba(#0074d9, .5);
-}
-
-.button-gray:disabled,
-.button-gray.is-disabled {
-  opacity: .5;
-}
+/*@import 'basscss-button-blue';*/
+/*@import 'basscss-button-blue-outline';*/
+/*@import 'basscss-button-gray';*/
+/*@import 'basscss-button-light-gray';*/
+/*@import 'basscss-button-red';*/
 /* Basscss Button Nav Light */
 
 .button-nav-light {
@@ -2145,3 +1926,4 @@ input[type=range] {
 
 
 /* Custom properties */
+

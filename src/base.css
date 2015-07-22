@@ -33,7 +33,9 @@
 @import 'basscss-colors';
 @import 'basscss-background-colors';
 
-/*
+
+/* Optional Modules (not included in Basscss by default) */
+
 @import 'basscss-base-buttons';
 @import 'basscss-button-sizes';
 @import 'basscss-color-forms-dark';
@@ -47,19 +49,19 @@
 @import 'basscss-utility-headings';
 @import 'basscss-ui-utility-groups';
 @import 'basscss-table-object';
-@import 'basscss-color-buttons';
+/*@import 'basscss-color-buttons';*/
 @import 'basscss-button-link';
-@import 'basscss-button-blue';
-@import 'basscss-button-blue-outline';
-@import 'basscss-button-gray';
-@import 'basscss-button-light-gray';
-@import 'basscss-button-red';
+/*@import 'basscss-button-blue';*/
+/*@import 'basscss-button-blue-outline';*/
+/*@import 'basscss-button-gray';*/
+/*@import 'basscss-button-light-gray';*/
+/*@import 'basscss-button-red';*/
 @import 'basscss-button-nav-light';
 @import 'basscss-button-nav-dark';
 @import 'basscss-button-nav-tab';
 @import 'basscss-highlight-dark';
 @import 'basscss-highlight';
-*/
+
 
 /* Example custom file import */
 /*
@@ -72,14 +74,12 @@
 
 
 /* Custom media queries */
-/*
 @custom-media --breakpoint-sm (min-width: 40em);
 @custom-media --breakpoint-md (min-width: 52em);
 @custom-media --breakpoint-lg (min-width: 64em);
-*/
+
 
 /* Custom properties */
-/*
 :root {
 
   --font-family: 'Helvetica Neue', Helvetica, sans-serif;
@@ -153,4 +153,4 @@
 
 
 }
-*/
+
